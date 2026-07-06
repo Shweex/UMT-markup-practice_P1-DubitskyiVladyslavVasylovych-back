@@ -1,4 +1,5 @@
 const { Sequelize } = require('sequelize');
+const { seedIfEmpty } = require('../services/seedService');
 
 const databaseUrl = process.env.DATABASE_URL;
 
@@ -28,6 +29,7 @@ async function connectDatabase() {
 
     require('../models');
     await sequelize.sync();
+    await seedIfEmpty();
   } catch (error) {
     console.error('Unable to connect to the database:', error.message);
     process.exit(1);

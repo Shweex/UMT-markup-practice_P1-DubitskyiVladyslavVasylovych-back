@@ -46,11 +46,13 @@ npm install
 npm start
 ```
 
-4. (Опційно) Заповни БД тестовими даними:
+4. (Опційно) Заповни БД тестовими даними локально:
 
 ```bash
 npm run seed
 ```
+
+На Render Free Shell недоступний — при першому запуску сервер **автоматично** додає 4 тестові букети, якщо база порожня.
 
 5. Відкрий Swagger: [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
 
@@ -90,7 +92,7 @@ npm run seed
    - `PORT=10000` (Render часто використовує 10000)
 4. Build command: `npm install`
 5. Start command: `npm start`
-6. Після деплою виконай seed (Render Shell): `npm run seed`
+6. Після деплою букети з’являться автоматично при першому запуску (якщо база порожня). Shell не потрібен.
 
 ## Змінні середовища
 
