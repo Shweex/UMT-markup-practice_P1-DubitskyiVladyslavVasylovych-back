@@ -5,6 +5,14 @@ REST API для проєкту Flora (UMT). Express + PostgreSQL + Sequelize + J
 **Frontend:** https://github.com/Shweex/UMT-markup-practice_P1-DubitskyiVladyslavVasylovych  
 **Backend repo:** https://github.com/Shweex/UMT-markup-practice_P1-DubitskyiVladyslavVasylovych-back
 
+## Фінальна здача
+
+| Ресурс | URL |
+|--------|-----|
+| Live API | https://flora-api-qtqi.onrender.com |
+| Swagger UI | https://flora-api-qtqi.onrender.com/api-docs |
+| Live frontend | https://shweex.github.io/UMT-markup-practice_P1-DubitskyiVladyslavVasylovych/ |
+
 ## Стек
 
 - Node.js (LTS)
